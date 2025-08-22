@@ -1,7 +1,7 @@
 {
     "expo": {
         "name": "Castelblanco Music",
-        "slug": "Castelblanco-Music",
+        "slug": "castelblanco-music",
         "version": "1.0.0",
         "orientation": "portrait",
         "icon": "./assets/images/favicon.png",
@@ -14,13 +14,20 @@
             "backgroundColor": "#000000"
         },
         "ios": {
+            "bundleIdentifier": "com.castelblancomusic.app",
             "supportsTablet": true
         },
         "android": {
+            "package": "com.castelblancomusic.app",
             "adaptiveIcon": {
                 "foregroundImage": "./assets/images/favicon.png",
                 "backgroundColor": "#000000"
-            }
+            },
+            "permissions": [
+                "android.permission.READ_EXTERNAL_STORAGE",
+                "android.permission.WRITE_EXTERNAL_STORAGE",
+                "android.permission.ACCESS_MEDIA_LOCATION"
+            ]
         },
         "web": {
             "bundler": "metro",
@@ -51,6 +58,16 @@
         ],
         "experiments": {
             "typedRoutes": true
-        }
+        },
+        "extra": {
+            "router": {
+                "origin": false,
+                "root": "./src/views"
+            },
+            "eas": {
+                "projectId": "404b71ea-3184-415b-a6e2-d21178c90e49"
+            }
+        },
+        "owner": "castelblanco"
     }
 }

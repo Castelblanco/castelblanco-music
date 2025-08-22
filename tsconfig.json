@@ -4,11 +4,13 @@
         "strict": true,
         "baseUrl": ".",
         "paths": {
+            "@common/*": ["src/common/*"],
             "@models/*": ["src/models/*"],
             "@storages/*": ["src/storages/*"],
             "@constants/*": ["src/constants/*"],
             "@hooks/*": ["src/hooks/*"],
             "@helpers/*": ["src/helpers/*"],
+            "@tools/*": ["src/tools/*"],
             "@styles/*": ["src/styles/*"],
             "@atoms/*": ["src/components/atoms/*"],
             "@modecules/*": ["src/components/modecules/*"],

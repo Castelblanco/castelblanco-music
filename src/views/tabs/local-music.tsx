@@ -8,7 +8,7 @@ import { COLORS } from '@constants/color';
 import { IconStepBackward } from '@atoms/icons/step-backward';
 import { IconPlay } from '@atoms/icons/play';
 import { IconStepForward } from '@atoms/icons/step-forward';
-import { useGetAudioAssets } from '@hooks/use_get_audio_assets';
+import { useGetAudioAssets } from '@hooks/use-get-audio-assets';
 import * as MediaLibrary from 'expo-media-library';
 import { IconPause } from '@atoms/icons/pause';
 import { Music } from '@organisms/music';

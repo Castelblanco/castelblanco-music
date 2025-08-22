@@ -18,11 +18,6 @@ export default function MainLayout() {
                     tabBarActiveTintColor: COLORS.PRIMERY,
                     tabBarShowLabel: true,
                     headerShown: false,
-                    tabBarItemStyle: {
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        borderLeftWidth: 2,
-                    },
                     tabBarLabelPosition: 'beside-icon',
                     tabBarLabel: () => <></>,
                 }}
